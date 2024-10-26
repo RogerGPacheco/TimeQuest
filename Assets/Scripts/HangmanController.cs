@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HangmanController : MonoBehaviour
@@ -41,7 +42,13 @@ public class HangmanController : MonoBehaviour
         //reset data to original state
         incorrectGuess = 0;
         correctGuess = 0;
-        
+
+        //Ajustar regra
+        int vitorias = PlayerPrefs.GetInt("Vitorias");
+        if (vitorias < 5)
+        {
+            //Chamar proxima cena
+        }
 
         foreach(Button child in keyboardContainer.GetComponentsInChildren<Button>())
         {
@@ -90,6 +97,7 @@ public class HangmanController : MonoBehaviour
             {
                 letterInWord = true;
                 correctGuess++;
+                var teste = wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i];
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].text = inputLetter;
             }
         }
@@ -110,7 +118,8 @@ public class HangmanController : MonoBehaviour
             {
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].color = Color.green;
             }
-            Invoke(nameof(initialiseGame), 3.0f);
+            PlayerPrefs.SetInt("Vitorias", PlayerPrefs.GetInt("Vitorias") + 1);
+            StartCoroutine(LoadLevelAfterDelay(3));
         }
 
         if(incorrectGuess == hangmanStage.Length) //lose
@@ -121,7 +130,13 @@ public class HangmanController : MonoBehaviour
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].color = Color.red;
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].text = word[i].ToString();
             }
-            Invoke(nameof(initialiseGame), 3.0f);
+            StartCoroutine(LoadLevelAfterDelay(3));
         }
+    }
+
+    IEnumerator LoadLevelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("SampleScene");
     }
 }
