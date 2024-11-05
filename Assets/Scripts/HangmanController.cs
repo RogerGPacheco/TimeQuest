@@ -55,8 +55,6 @@ public class HangmanController : MonoBehaviour
             child.interactable = true;
             
         }
-        
-
 
         foreach (GameObject stage in hangmanStage)
         {
@@ -74,21 +72,21 @@ public class HangmanController : MonoBehaviour
 
     }
 
-    private void CreateButton(int i)
+    private void CreateButton(int i) //keyboard
     {
         GameObject temp = Instantiate(letterButton, keyboardContainer.transform);
         temp.GetComponentInChildren<TextMeshProUGUI>().text = ((char)i).ToString();
         temp.GetComponent<Button>().onClick.AddListener(delegate { checkLetter(((char)i).ToString()); } );
     }
 
-    private string generateWord()
+    private string generateWord() //create a word for the round
     {
         string[] wordList = possibleWord.text.Split("\n");
         string line = wordList[Random.Range(0, wordList.Length - 1)];
         return line.Substring(0, line.Length - 1);
     }
 
-    private void checkLetter(string inputLetter)
+    private void checkLetter(string inputLetter) // check if letter guessed is correct or incorrect
     {
         bool letterInWord = false;
         for (int i = 0; i < word.Length; i++)
@@ -96,9 +94,9 @@ public class HangmanController : MonoBehaviour
             if (inputLetter == word[i].ToString())
             {
                 letterInWord = true;
-                correctGuess++;
                 var teste = wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i];
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].text = inputLetter;
+                correctGuess++;
             }
         }
         if (letterInWord == false) 
