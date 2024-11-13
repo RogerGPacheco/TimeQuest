@@ -26,7 +26,10 @@ public class HangmanController : MonoBehaviour
     void Start()
     {
         InitialiseButtons();
-        initialiseGame(); 
+        initialiseGame();
+        
+        Debug.Log("Contagem de vitorias: " + PlayerPrefs.GetInt("Vitorias"));
+
     }
 
     private void InitialiseButtons()
@@ -45,9 +48,10 @@ public class HangmanController : MonoBehaviour
 
         //Ajustar regra
         int vitorias = PlayerPrefs.GetInt("Vitorias");
-        if (vitorias < 5)
+        if (vitorias >= 5)
         {
-            //Chamar proxima cena
+            SceneManager.LoadScene(sceneBuildIndex: 2);
+            PlayerPrefs.SetInt("Vitorias", 0);
         }
 
         foreach(Button child in keyboardContainer.GetComponentsInChildren<Button>())
@@ -117,6 +121,7 @@ public class HangmanController : MonoBehaviour
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].color = Color.green;
             }
             PlayerPrefs.SetInt("Vitorias", PlayerPrefs.GetInt("Vitorias") + 1);
+            Debug.Log("Contagem de vitorias: " + PlayerPrefs.GetInt("Vitorias"));
             StartCoroutine(LoadLevelAfterDelay(3));
         }
 
@@ -135,6 +140,6 @@ public class HangmanController : MonoBehaviour
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Scene2");
     }
 }
