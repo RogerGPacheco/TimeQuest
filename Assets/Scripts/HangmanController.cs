@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,6 +10,7 @@ public class HangmanController : MonoBehaviour
 {
 
     public GameObject wordContainer;
+    public string sceneName;
     [SerializeField] GameObject keyboardContainer;
     [SerializeField] GameObject letterContainer;
     [SerializeField] GameObject letterButton;
@@ -50,7 +50,7 @@ public class HangmanController : MonoBehaviour
         int vitorias = PlayerPrefs.GetInt("Vitorias");
         if (vitorias >= 5)
         {
-            SceneManager.LoadScene(sceneBuildIndex: 2);
+            SceneManager.LoadScene(sceneName);
             PlayerPrefs.SetInt("Vitorias", 0);
         }
 
@@ -133,6 +133,7 @@ public class HangmanController : MonoBehaviour
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].color = Color.red;
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].text = word[i].ToString();
             }
+            Debug.Log("Contagem de vitorias: " + PlayerPrefs.GetInt("Vitorias"));
             StartCoroutine(LoadLevelAfterDelay(3));
         }
     }
@@ -140,6 +141,6 @@ public class HangmanController : MonoBehaviour
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene("Scene2");
+        SceneManager.LoadScene("Level1");
     }
 }
