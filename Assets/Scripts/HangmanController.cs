@@ -62,7 +62,7 @@ public class HangmanController : MonoBehaviour
 
         foreach (GameObject stage in hangmanStage)
         {
-            stage.SetActive(false);
+            stage.SetActive(true);
             
         }
 
@@ -106,7 +106,7 @@ public class HangmanController : MonoBehaviour
         if (letterInWord == false) 
         {
             incorrectGuess++;
-            hangmanStage[incorrectGuess - 1].SetActive(true);
+            hangmanStage[incorrectGuess - 1].SetActive(false);
         }
         CheckOutcome();
     }

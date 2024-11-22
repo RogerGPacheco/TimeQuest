@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        textMeshPro.text = PlayerPrefs.GetString("name");
+        //textMeshPro.text = PlayerPrefs.GetString("name");
     }
     public void changeScene()
     {
