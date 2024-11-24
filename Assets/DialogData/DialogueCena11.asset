@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena11
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: '* Uma paisagem deslumbrante aparece diante deles *'
+  - name: Protagonista
+    text: "Uau. Chega a ser bonito aqui n\xE3o \xE9 mesmo doutora?"
+  - name: 
+    text: "* Ele v\xEA a doutora indo em dire\xE7\xE3o a uma floresta *"
+  - name: Protagonista
+    text: "(E ela s\xF3 me ignorou. Que legal) "
+  - name: Protagonista
+    text: Me espera doutora!!

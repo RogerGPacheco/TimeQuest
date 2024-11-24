@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena12
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: "* Ap\xF3s um tempo andando, os dois chegam em uma clareira na floresta
+      *"
+  - name: Doutora
+    text: "Achei voc\xEA!"
+  - name: Protagonista
+    text: ( Huf, Huf, Huf que canceira)
+  - name: Protagonista
+    text: "Quem voc\xEA achou doutora?"
+  - name: Doutora
+    text: "Essa pe\xE7a da m\xE1quina. "
+  - name: Protagonista
+    text: "Como assim pe\xE7a da m\xE1quina? A m\xE1quina quebrou?"
+  - name: Doutora
+    text: "Claro que n\xE3o, se tivesse quebrado estariamos presos aqui para sempre.
+      Algums pe\xE7as soltaram quando voltamos, s\xF3 isso."
+  - name: Protagonista
+    text: "(N\xE3o sei o que \xE9 pior, mas tudo bem)"
+  - name: Protagonista
+    text: "E como achou essa pe\xE7a doutora?"
+  - name: Doutora
+    text: "Com o rastreador da nave, Lembra? Eu expliquei para voc\xEA como funciona."
+  - name: Protagonista
+    text: "A... \xC9 verdade, agora me lembrei"
+  - name: Protagonista
+    text: ( Droga, esqueci logo de um negocio desse. Mas tambem, ela falava mais
+      rapido do que eu conseguia anotar )
+  - name: Doutora
+    text: "Bom, vou pegar ela aqui e voltamos a m\xE1quina ok."
+  - name: Protagonista
+    text: "Doutora, o que \xE9 isso ao lado da pe\xE7a? \xC9 um ovo?"
+  - name: Doutora
+    text: "Um ovo? HA, imagine um ovo desse tamanho. Agora al\xE9m de medroso ficou
+      doido foi?"
+  - name: Doutora
+    text: "Bom vou s\xF3 pegar ele aqui e.."
+  - name: 
+    text: '*Tuc*'

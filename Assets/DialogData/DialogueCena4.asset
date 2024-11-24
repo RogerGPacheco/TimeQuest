@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena4
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: Doutora
+    text: "E aqui est\xE1 ela, minha mais nova e gloriosa inven\xE7\xE3o."
+  - name: Doutora
+    text: "A primeira, a \xFAnica, a melhor..."
+  - name: Protagonista
+    text: (Maior geladeira do mundo?)
+  - name: Doutora
+    text: "M\xC1QUINA DO TEMPO!"
+  - name: Protagoista
+    text: "M\xE1quina do tempo?"
+  - name: Protagoista
+    text: "Doutora, todos sabem que isso \xE9 impossivel por mil e uma raz\xF5es,
+      tem certeza que ela funciona?"
+  - name: 
+    text: '*A doutora fica levemente irritada com o comentario*'
+  - name: Doutora
+    text: "Olha, eu sei a maioria das pessoas teria esse mesmo pensamento, at\xE9
+      antigos colegas cientista me deram a mesma resposta, mas voc\xEA podia ter
+      ficado mais empolgado seu jornalista medroso e atrapalhado"
+  - name: Protagonista
+    text: "Medroso? Eu n\xE3o sou medroso"
+  - name: Doutora
+    text: "Para se assustar com uma mascara de solda voc\xEA tem que ser muito medroso.
+      Ent\xE3o sim, voc\xEA \xE9."
+  - name: Protagonista
+    text: "(Estava escuro caramba, e voc\xEA veio com um ma\xE7arico na m\xE3o ainda
+      por cima)"
+  - name: Doutora
+    text: "E sobre ser impossivel, as pessoas acham que o tempo \xE9 uma linha reta,
+      mas na verdade \xE9 que de um ponto de vista n\xE3o linear, n\xE3o relativo,
+      ele \xE9 mais como uma grande bola de um barato muito doido de Espa\xE7o/Tempo...
+      Coisado."
+  - name: Protagonista
+    text: O que??
+  - name: Doutora
+    text: "Aff, acredite em mim, \xE9 possivel e vou te mostrar\n"
+  - name: Doutora
+    text: "Entra na m\xE1quina e te mostro como funciona"
+  - name: 
+    text: "*Os dois entr\xE3o na m\xE1quina do tempo *"

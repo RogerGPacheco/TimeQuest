@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena10
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: '* Uma vista estranha aparece na janela da porta *'
+  - name: Doutora
+    text: "E..E..Est\xE1 vendo isso?"
+  - name: Protagonista
+    text: "Sim, por incr\xEDvel que pare\xE7a. sim."
+  - name: Doutora
+    text: Espera, vou ver se consigo abrir a porta.
+  - name: Protagonista
+    text: "Espera ai, voc\xEA pretende ir la fora? Est\xE1 maluca? Voc\xEA nem sabe
+      o que tem l\xE1!"
+  - name: Doutora
+    text: "\xC9 verdade, mas ficar aqui, n\xE3o vai me adiantar de nada. Ou vai?"
+  - name: Protagonista
+    text: "(Pior que ela est\xE1 certa)"
+  - name: Doutora
+    text: Consegui abrir! To indo!
+  - name: Protagonista
+    text: Ei, me espera!

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena8
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: "* Ap\xF3s o clar\xE3o, os dois ficam meio desnorteados e encar\xE3o um
+      ao outro*"
+  - name: Doutora
+    text: Mas o que??!
+  - name: Protagonista
+    text: O que aconteceu?
+  - name: Doutora
+    text: "Tudo parece, n\xE3o sei, diferente. Extremamente diferente"
+  - name: Protagonista
+    text: "Sim, est\xE1 tudo estranho, ainda estamos vivos?"
+  - name: Doutora
+    text: "\xC9 claro que sim, e ainda estamos na m\xE1quina!"
+  - name: Doutora
+    text: "Ela n\xE3o explodiu nem nada, ela funcionou, como eu calculei."
+  - name: Protagonista
+    text: ( Ainda bem doutora, ainda bem mesmo )
+  - name: Protagonista
+    text: "Bom, ela funcionou, mas a pergunta \xE9: Onde estamos?"
+  - name: Doutora
+    text: Ou melhor, quando estamos?

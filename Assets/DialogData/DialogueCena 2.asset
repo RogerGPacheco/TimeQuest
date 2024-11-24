@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena 2
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: Protagonista
+    text: '* Uma figura misteriosa aparece na sua frente *'
+  - name: Protagonista
+    text: AHHHH !!!
+  - name: Protagonista
+    text: "Q..Q..Quem \xE9 voc\xEA?"
+  - name: Protagonista
+    text: "Para tr\xE1s, eu tenho uma bolsa pesada e sei como arremesa-l\xE1"
+  - name: Figura misteriosa
+    text: .... HAHAHA
+  - name: Protagonista
+    text: "O que houve? Do que est\xE1 rindo?"
+  - name: Figura Misteriosa
+    text: "Quem \xE9 voc\xEA e o que quer aqui?"
+  - name: Protagonista
+    text: Eu..Eu..Eu...
+  - name: Figura Misteriosa
+    text: FALA LOGO!
+  - name: Protagonista
+    text: AH! Eu to procurando a doutora Aurelia Jones
+  - name: Figura Misteriosa
+    text: O que quer com ela?
+  - name: Protagonista
+    text: "Sou o Jornalista que veio intrevista-l\xE1"
+  - name: Figura Misteriosa
+    text: "Ata, \xE9 voc\xEA ent\xE3o, ok s\xF3 um minuto."
+  - name: Protagonista
+    text: ????

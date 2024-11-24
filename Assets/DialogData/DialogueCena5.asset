@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena5
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: Protagonista
+    text: "Nossa, como \xE9 apertado aqui doutora, fico surpreso de caber voc\xEA
+      sozinha quem dir\xE1 eu."
+  - name: Doutora
+    text: "Olha, o espa\xE7o n\xE3o \xE9 grande realmente, mas conforto n\xE3o \xE9
+      uma coisa que eu estava me preucupando quando fiz a m\xE1quina."
+  - name: Protagonista
+    text: "(\xC9, deu para perceber)"
+  - name: Doutora
+    text: "Bom, antes de tudo, como sei que voc\xEA \xE9 curioso vou pedir que n\xE3o
+      aperte nada ok. N\xE3o quero que nada de errado aconte\xE7a"
+  - name: Protagonista
+    text: "(Primeiro ela me chama de medroso, agora de curioso? Estou come\xE7ando
+      a acreditar que ela n\xE3o gosta muito de mim)"
+  - name: Protagonista
+    text: "Ok doutora, prometo n\xE3o tocar em nada, mas por favor me explique como
+      as coisas funcionam."
+  - name: Doutora
+    text: "Certamente, bom primeiro n\xF3s temos...."
+  - name: 
+    text: "* Depois de uma explica\xE7\xE3o bem detalhada da doutora sobre como as
+      coisas funcionam no interior da m\xE1quina *"
+  - name: Doutora
+    text: "E bom, acho que \xE9 isso. Conseguiu acompanhar?"
+  - name: Protagonista
+    text: Sim doutora
+  - name: Protagonista
+    text: (Caramba, quanta coisa, ainda bem que anoteis as coisas mais importantes)
+  - name: Doutora
+    text: "Bom, agora que voc\xEA terminou sua entrevista, vou te conduzir a sa\xEDda
+      e..."

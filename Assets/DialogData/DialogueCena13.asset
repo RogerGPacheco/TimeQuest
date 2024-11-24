@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0919667c3b726ab4ebb4bde61d26b98f, type: 3}
+  m_Name: DialogueCena13
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: "* Ap\xF3s a doutora pegar a pe\xE7a, o objeto cai para o lado e revela
+      ser um ovo bem grande *"
+  - name: Doutora
+    text: Opa!
+  - name: Protagonista
+    text: Aham, eu sabia, era um ovo!
+  - name: Protagonista
+    text: "Mas \xE9 um ovo t\xE3o grande, o que deve ter botado ele?"
+  - name: Doutora
+    text: "Bom, eu n\xE3o sei, mas peguei a pe\xE7a. Vamos voltar para a m\xE1quina
+      e..."
+  - name: 
+    text: "*Grandes estrondos estremecem o ch\xE3o ao redor dos dois*"
