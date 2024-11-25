@@ -16,30 +16,30 @@ MonoBehaviour:
   - name: 
     text: "* A m\xE1quina come\xE7a a tremer muito e barulhos estranhos come\xE7ar
       a soar de todos os lados *"
-  - name: Protagonista
+  - name: Jornalista
     text: "O que est\xE1 acontecendo doutora?!!"
   - name: Doutora
     text: "O que para que est\xE1 acontecendo, a m\xE1quina ligou."
-  - name: Protagonista
+  - name: Jornalista
     text: "Ent\xE3o desliga ela doutora!"
   - name: Doutora
     text: "Eu j\xE1 teria feito, mas a m\xE1quina n\xE3o quer responder."
-  - name: Protagonista
+  - name: Jornalista
     text: "Como assim n\xE3o quer responder doutora ?!"
   - name: 
     text: "* Os paineis da m\xE1quina come\xE7am a piscar * "
-  - name: Protagonista
+  - name: Jornalista
     text: "(Eu vou morrer na m\xE1quina de uma doutora maluca, o meu Deus, por que
       aqui, por que assim?)"
   - name: Doutora
     text: "Se segure medroso, n\xF3s vamos decolar"
-  - name: Protagonista
+  - name: Jornalista
     text: "Ai minha nossa, eu n\xE3o quero morrer doutora!"
   - name: 
     text: "* A m\xE1quina funciona *"
   - name: Doutora
     text: "E l\xE1 vamos nooooooooooooo...."
-  - name: Protagonista
+  - name: Jornalista
     text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.....
   - name: 
     text: "* Um clar\xE3o acontece *"

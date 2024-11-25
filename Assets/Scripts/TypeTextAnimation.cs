@@ -9,7 +9,7 @@ public class TypeTextAnimation : MonoBehaviour
 
     public Action TypeFinished;
 
-   public float typeDelay = 0.05f;
+   public float typeDelay = 0.02f;
     public TextMeshProUGUI textObject;
 
     public string fullText;
@@ -22,7 +22,7 @@ public class TypeTextAnimation : MonoBehaviour
     
     void Start()
     {
-      
+     
     }
 
     IEnumerator TypeText()
@@ -35,7 +35,6 @@ public class TypeTextAnimation : MonoBehaviour
             yield return new WaitForSeconds(typeDelay);
             
         }
-
         TypeFinished?.Invoke();
     }
 

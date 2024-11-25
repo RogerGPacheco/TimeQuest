@@ -15,7 +15,7 @@ MonoBehaviour:
   talkScript:
   - name: Doutora
     text: "E, bom, s\xF3 tem um jeito de descobrir isso certo?"
-  - name: Protagonista
+  - name: Jornalista
     text: Infelizmente, creio que sim
   - name: 
     text: "* Os dois decidem olhar para a janela estranha da m\xE1quina *"

@@ -15,11 +15,11 @@ MonoBehaviour:
   talkScript:
   - name: 
     text: '* Uma paisagem deslumbrante aparece diante deles *'
-  - name: Protagonista
+  - name: Jornalista
     text: "Uau. Chega a ser bonito aqui n\xE3o \xE9 mesmo doutora?"
   - name: 
     text: "* Ele v\xEA a doutora indo em dire\xE7\xE3o a uma floresta *"
-  - name: Protagonista
+  - name: Jornalista
     text: "(E ela s\xF3 me ignorou. Que legal) "
-  - name: Protagonista
+  - name: Jornalista
     text: Me espera doutora!!

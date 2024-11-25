@@ -18,19 +18,19 @@ MonoBehaviour:
       ao outro*"
   - name: Doutora
     text: Mas o que??!
-  - name: Protagonista
+  - name: Jornalista
     text: O que aconteceu?
   - name: Doutora
     text: "Tudo parece, n\xE3o sei, diferente. Extremamente diferente"
-  - name: Protagonista
+  - name: Jornalista
     text: "Sim, est\xE1 tudo estranho, ainda estamos vivos?"
   - name: Doutora
     text: "\xC9 claro que sim, e ainda estamos na m\xE1quina!"
   - name: Doutora
     text: "Ela n\xE3o explodiu nem nada, ela funcionou, como eu calculei."
-  - name: Protagonista
+  - name: Jornalista
     text: ( Ainda bem doutora, ainda bem mesmo )
-  - name: Protagonista
+  - name: Jornalista
     text: "Bom, ela funcionou, mas a pergunta \xE9: Onde estamos?"
   - name: Doutora
     text: Ou melhor, quando estamos?

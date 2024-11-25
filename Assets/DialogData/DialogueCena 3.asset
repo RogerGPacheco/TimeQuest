@@ -15,24 +15,24 @@ MonoBehaviour:
   talkScript:
   - name: 
     text: '* As luzes se ascendem e uma mulher aparece na sua frente *'
-  - name: Protagonista
+  - name: Jornalista
     text: "Ent\xE3o voc\xEA era a doutora"
   - name: 'Doutora '
     text: "E voc\xEA \xE9 o reporter, n\xE3o \xE9?"
-  - name: Protagonista
+  - name: Jornalista
     text: Sim, eu sou, e que fantasia era aquela?
   - name: Doutora
     text: Fantansia?
   - name: Doutora
-    text: "Ata, kkkkk, n\xE3o seu bobo era s\xF3 minha mascara de Solda e meu ma\xE7arico."
-  - name: Protagonista
+    text: "Ata, hahaha, n\xE3o seu bobo era s\xF3 minha mascara de Solda e meu ma\xE7arico."
+  - name: Jornalista
     text: "E porque uma cientista precisaria dessas coisas no l\xE1boratorio?"
   - name: Doutora
     text: "A se\xE7\xE3o de pergunta j\xE1 come\xE7ou ou voc\xEA s\xF3 \xE9 curioso
       mesmo?"
-  - name: Protagonista
+  - name: Jornalista
     text: "(J\xE1 deu para perceber que boas maneiras essa doutora n\xE3o tem)"
-  - name: Protagonista
+  - name: Jornalista
     text: "Bom doutora, se voc\xEA quiser come\xE7ar com as perguntas nos podemos"
   - name: Doutora
     text: Ok, acho que pode ser. Qual a primeira?
@@ -44,13 +44,13 @@ MonoBehaviour:
   - name: Doutora
     text: "Olha, quer saber, j\xE1 foram muitas perguntas. Voc\xEA est\xE1 aqui para
       saber sobre a minha inven\xE7\xE3o certo?"
-  - name: Protagonista
+  - name: Jornalista
     text: "Bom, \xE9 um dos motivos, mas..."
   - name: 
     text: "* A doutora te agarra pelo bra\xE7o e come\xE7a a te arrastar *"
   - name: Doutora
     text: "Sem mais nem menos, s\xF3 vem comigo"
-  - name: Protagonista
+  - name: Jornalista
     text: Ok ok, estou indo
-  - name: Protagonista
+  - name: Jornalista
     text: "(Ela \xE9 bem forte para algu\xE9m t\xE3o magra)"

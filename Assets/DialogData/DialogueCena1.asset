@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: DialogueCena1
   m_EditorClassIdentifier: 
   talkScript:
-  - name: Protagonista
+  - name: Jornalista
     text: Olaaaa
-  - name: Protagonista
+  - name: Jornalista
     text: "Tem algu\xE9m ai?"
-  - name: Protagonista
+  - name: Jornalista
     text: Estou procurando a Doutora Aurelia
-  - name: Protagonista
+  - name: Jornalista
     text: "(Droga, porque est\xE1 tudo t\xE3o escuro?)"
   - name: 
     text: "* Ap\xF3s andar um pouco, o protagonista para denovo e pergunta *"
-  - name: Protagonista
+  - name: Jornalista
     text: "Olaaa, algu\xE9m?"

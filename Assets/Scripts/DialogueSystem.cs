@@ -39,6 +39,7 @@ public class DialogueSystem : MonoBehaviour
      void Start()
     {
         state = STATE.DISABLED;
+        Next();
     }
 
      void Update()
@@ -65,7 +66,8 @@ public class DialogueSystem : MonoBehaviour
 
         if (finished) 
         {
-                StartCoroutine(LoadLevelAfterDelay(5));
+            
+            StartCoroutine(LoadLevelAfterDelay(5));
         }
     }
 
@@ -73,6 +75,7 @@ public class DialogueSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(SceneName);
+        Debug.Log("Carregando cena");
     }
 
     public void Next()
@@ -83,7 +86,10 @@ public class DialogueSystem : MonoBehaviour
 
         typeText.fullText = dialogueData.talkScript[currentText++].text;
 
-        if(currentText == dialogueData.talkScript.Count) finished = true;
+        if(currentText == dialogueData.talkScript.Count) 
+        { 
+            finished = true; 
+        }
 
         typeText.StartTyping();
         state = STATE.TYPING;

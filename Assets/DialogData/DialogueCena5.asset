@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: DialogueCena5
   m_EditorClassIdentifier: 
   talkScript:
-  - name: Protagonista
+  - name: Jornalista
     text: "Nossa, como \xE9 apertado aqui doutora, fico surpreso de caber voc\xEA
       sozinha quem dir\xE1 eu."
   - name: Doutora
     text: "Olha, o espa\xE7o n\xE3o \xE9 grande realmente, mas conforto n\xE3o \xE9
       uma coisa que eu estava me preucupando quando fiz a m\xE1quina."
-  - name: Protagonista
+  - name: Jornalista
     text: "(\xC9, deu para perceber)"
   - name: Doutora
     text: "Bom, antes de tudo, como sei que voc\xEA \xE9 curioso vou pedir que n\xE3o
       aperte nada ok. N\xE3o quero que nada de errado aconte\xE7a"
-  - name: Protagonista
+  - name: Jornalista
     text: "(Primeiro ela me chama de medroso, agora de curioso? Estou come\xE7ando
       a acreditar que ela n\xE3o gosta muito de mim)"
-  - name: Protagonista
+  - name: Jornalista
     text: "Ok doutora, prometo n\xE3o tocar em nada, mas por favor me explique como
       as coisas funcionam."
   - name: Doutora
@@ -37,9 +37,9 @@ MonoBehaviour:
       coisas funcionam no interior da m\xE1quina *"
   - name: Doutora
     text: "E bom, acho que \xE9 isso. Conseguiu acompanhar?"
-  - name: Protagonista
+  - name: Jornalista
     text: Sim doutora
-  - name: Protagonista
+  - name: Jornalista
     text: (Caramba, quanta coisa, ainda bem que anoteis as coisas mais importantes)
   - name: Doutora
     text: "Bom, agora que voc\xEA terminou sua entrevista, vou te conduzir a sa\xEDda

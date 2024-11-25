@@ -19,5 +19,5 @@ MonoBehaviour:
     text: '*Os dois se olham*'
   - name: Doutora
     text: "Eu disse para voc\xEA n\xE3o apertar nada, seu medroso estupido"
-  - name: Protagonista
+  - name: Jornalista
     text: "E eu n\xE3o apertei doutora"

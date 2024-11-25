@@ -18,9 +18,9 @@ MonoBehaviour:
       ser um ovo bem grande *"
   - name: Doutora
     text: Opa!
-  - name: Protagonista
+  - name: Jornalista
     text: Aham, eu sabia, era um ovo!
-  - name: Protagonista
+  - name: Jornalista
     text: "Mas \xE9 um ovo t\xE3o grande, o que deve ter botado ele?"
   - name: Doutora
     text: "Bom, eu n\xE3o sei, mas peguei a pe\xE7a. Vamos voltar para a m\xE1quina
