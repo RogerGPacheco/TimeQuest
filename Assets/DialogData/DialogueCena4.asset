@@ -29,7 +29,7 @@ MonoBehaviour:
   - name: 
     text: '*A doutora fica levemente irritada com o comentario*'
   - name: Doutora
-    text: "Olha, eu sei a maioria das pessoas teria esse mesmo pensamento, at\xE9
+    text: "Olha, eu sei, a maioria das pessoas teria esse mesmo pensamento, at\xE9
       antigos colegas cientista me deram a mesma resposta, mas voc\xEA podia ter
       ficado mais empolgado seu jornalista medroso e atrapalhado"
   - name: Jornalista
@@ -52,4 +52,4 @@ MonoBehaviour:
   - name: Doutora
     text: "Entra na m\xE1quina e te mostro como funciona"
   - name: 
-    text: "*Os dois entr\xE3o na m\xE1quina do tempo *"
+    text: "*Os dois entram na m\xE1quina do tempo *"

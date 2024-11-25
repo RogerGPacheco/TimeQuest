@@ -15,15 +15,15 @@ MonoBehaviour:
   talkScript:
   - name: Jornalista
     text: "Nossa, como \xE9 apertado aqui doutora, fico surpreso de caber voc\xEA
-      sozinha quem dir\xE1 eu."
+      sozinha, quem dir\xE1 eu."
   - name: Doutora
     text: "Olha, o espa\xE7o n\xE3o \xE9 grande realmente, mas conforto n\xE3o \xE9
-      uma coisa que eu estava me preucupando quando fiz a m\xE1quina."
+      uma coisa que eu estava me preocupando quando fiz a m\xE1quina."
   - name: Jornalista
     text: "(\xC9, deu para perceber)"
   - name: Doutora
     text: "Bom, antes de tudo, como sei que voc\xEA \xE9 curioso vou pedir que n\xE3o
-      aperte nada ok. N\xE3o quero que nada de errado aconte\xE7a"
+      aperte em nada, ok? N\xE3o quero que nada de errado aconte\xE7a"
   - name: Jornalista
     text: "(Primeiro ela me chama de medroso, agora de curioso? Estou come\xE7ando
       a acreditar que ela n\xE3o gosta muito de mim)"
@@ -40,7 +40,7 @@ MonoBehaviour:
   - name: Jornalista
     text: Sim doutora
   - name: Jornalista
-    text: (Caramba, quanta coisa, ainda bem que anoteis as coisas mais importantes)
+    text: (Caramba, quanta coisa, ainda bem que anotei as coisas mais importantes)
   - name: Doutora
     text: "Bom, agora que voc\xEA terminou sua entrevista, vou te conduzir a sa\xEDda
       e..."

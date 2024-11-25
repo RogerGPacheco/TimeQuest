@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   talkScript:
   - name: 
-    text: '* As luzes se ascendem e uma mulher aparece na sua frente *'
+    text: '* As luzes se acendem e uma mulher aparece na sua frente *'
   - name: Jornalista
-    text: "Ent\xE3o voc\xEA era a doutora"
+    text: "Ent\xE3o... voc\xEA era a doutora..."
   - name: 'Doutora '
-    text: "E voc\xEA \xE9 o reporter, n\xE3o \xE9?"
+    text: "E voc\xEA \xE9 o jornalista, n\xE3o \xE9?"
   - name: Jornalista
     text: Sim, eu sou, e que fantasia era aquela?
   - name: Doutora
-    text: Fantansia?
+    text: Fantasia?
   - name: Doutora
     text: "Ata, hahaha, n\xE3o seu bobo era s\xF3 minha mascara de Solda e meu ma\xE7arico."
   - name: Jornalista

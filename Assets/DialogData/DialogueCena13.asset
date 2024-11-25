@@ -19,9 +19,9 @@ MonoBehaviour:
   - name: Doutora
     text: Opa!
   - name: Jornalista
-    text: Aham, eu sabia, era um ovo!
+    text: AHA! Eu sabia que era um ovo!
   - name: Jornalista
-    text: "Mas \xE9 um ovo t\xE3o grande, o que deve ter botado ele?"
+    text: "...mas \xE9 um ovo bem grande, o que deve ter botado ele?"
   - name: Doutora
     text: "Bom, eu n\xE3o sei, mas peguei a pe\xE7a. Vamos voltar para a m\xE1quina
       e..."

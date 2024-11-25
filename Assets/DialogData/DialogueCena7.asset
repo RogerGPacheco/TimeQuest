@@ -19,7 +19,7 @@ MonoBehaviour:
   - name: Jornalista
     text: "O que est\xE1 acontecendo doutora?!!"
   - name: Doutora
-    text: "O que para que est\xE1 acontecendo, a m\xE1quina ligou."
+    text: "O que parace que est\xE1 acontecendo? A m\xE1quina ligou!"
   - name: Jornalista
     text: "Ent\xE3o desliga ela doutora!"
   - name: Doutora
@@ -32,9 +32,9 @@ MonoBehaviour:
     text: "(Eu vou morrer na m\xE1quina de uma doutora maluca, o meu Deus, por que
       aqui, por que assim?)"
   - name: Doutora
-    text: "Se segure medroso, n\xF3s vamos decolar"
+    text: Se segure medroso, a maquina vai voltar no tempo!
   - name: Jornalista
-    text: "Ai minha nossa, eu n\xE3o quero morrer doutora!"
+    text: "Eu n\xE3o quero morrer doutora!"
   - name: 
     text: "* A m\xE1quina funciona *"
   - name: Doutora

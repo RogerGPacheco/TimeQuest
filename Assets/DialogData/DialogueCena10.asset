@@ -16,16 +16,16 @@ MonoBehaviour:
   - name: 
     text: '* Uma vista estranha aparece na janela da porta *'
   - name: Doutora
-    text: "E..E..Est\xE1 vendo isso?"
+    text: "Est\xE1 vendo isso?"
   - name: Jornalista
-    text: "Sim, por incr\xEDvel que pare\xE7a. sim."
+    text: "Sim, por incr\xEDvel que pare\xE7a."
   - name: Doutora
     text: Espera, vou ver se consigo abrir a porta.
   - name: Jornalista
     text: "Espera ai, voc\xEA pretende ir la fora? Est\xE1 maluca? Voc\xEA nem sabe
       o que tem l\xE1!"
   - name: Doutora
-    text: "\xC9 verdade, mas ficar aqui, n\xE3o vai me adiantar de nada. Ou vai?"
+    text: "\xC9 verdade, mas ficar aqui n\xE3o vai me adiantar de nada."
   - name: Jornalista
     text: "(Pior que ela est\xE1 certa)"
   - name: Doutora

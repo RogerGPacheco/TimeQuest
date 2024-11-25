@@ -14,14 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   talkScript:
   - name: 
-    text: "* Ap\xF3s o clar\xE3o, os dois ficam meio desnorteados e encar\xE3o um
-      ao outro*"
+    text: "* Ap\xF3s o clar\xE3o, os dois ficam desnorteados e encaram um ao outro*"
   - name: Doutora
     text: Mas o que??!
   - name: Jornalista
     text: O que aconteceu?
   - name: Doutora
-    text: "Tudo parece, n\xE3o sei, diferente. Extremamente diferente"
+    text: "Tudo parece... n\xE3o sei... diferente... Extremamente diferente..."
   - name: Jornalista
     text: "Sim, est\xE1 tudo estranho, ainda estamos vivos?"
   - name: Doutora

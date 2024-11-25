@@ -18,8 +18,8 @@ MonoBehaviour:
   - name: Jornalista
     text: "O..O..O que \xE9 isso?"
   - name: Doutora
-    text: "Bem, isso \xE9 uma f\xEAmea Spinosaurus aegyptiacus"
+    text: "Bem, isso \xE9 uma Spinosaurus aegyptiacus f\xEAmea"
   - name: Jornalista
-    text: Em, resumo um D..D..Dinossauro!!!!
+    text: "Ou seja, \xE9 um D..D..Dinossauro!!!!"
   - name: Doutora
     text: "Basicamente. Agora, fa\xE7a um favor e CORRA POR SUA VIDA!!!!"

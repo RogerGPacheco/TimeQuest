@@ -18,13 +18,13 @@ MonoBehaviour:
   - name: Jornalista
     text: AHHHH !!!
   - name: Jornalista
-    text: "Q..Q..Quem \xE9 voc\xEA?"
+    text: "Quem \xE9 voc\xEA?"
   - name: Jornalista
-    text: "Para tr\xE1s, eu tenho uma bolsa pesada e sei como arremesa-l\xE1"
+    text: "Para tr\xE1s, eu tenho uma bolsa pesada e sei como arremesa-l\xE1!"
   - name: Figura misteriosa
     text: .... HAHAHA
   - name: Jornalista
-    text: "O que houve? Do que est\xE1 rindo?"
+    text: "Do que est\xE1 rindo?"
   - name: Figura Misteriosa
     text: "Quem \xE9 voc\xEA e o que quer aqui?"
   - name: Jornalista
@@ -36,8 +36,8 @@ MonoBehaviour:
   - name: Figura Misteriosa
     text: O que quer com ela?
   - name: Jornalista
-    text: "Sou o Jornalista que veio intrevista-l\xE1"
+    text: "Sou o jornalista que veio entrevista-l\xE1"
   - name: Figura Misteriosa
-    text: "Ata, \xE9 voc\xEA ent\xE3o, ok s\xF3 um minuto."
+    text: "Ata, \xE9 voc\xEA ent\xE3o, certo, s\xF3 um minuto."
   - name: Jornalista
     text: ????
